@@ -1,0 +1,8 @@
+{% extends "_layout.html" %}
+
+{% block content %}
+<h1>{{ post.title }}</h1> 
+<p>{{ post.description }}</p>
+
+<p><a href="{% url 'posts:update' post.pk %}" class="btn">Edit</a> | <a href="{% url 'posts:delete' post.pk %}" class="btn">Delete</a></p>
+{% endblock content %}

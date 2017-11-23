@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Sqlite3 db 
+# Sqlite3 db
 db.sqlite3
 
 # C extensions
@@ -105,3 +105,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+notes.md
